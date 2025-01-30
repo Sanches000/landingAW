@@ -1,7 +1,7 @@
 import Header from './componentes/Header'
 import styled from 'styled-components'
-import BodyOne from './componentes/Body/BodyOne/index';
-import BodyTwo from './componentes/Body/BodyTwo/Index';
+import Carousel from './componentes/Body/Carousel/index';
+import BodyTwo from './componentes/Body/Cards/Index';
 import BodyThree from './componentes/Body/Bodythree/index';
 import Footer from './componentes/Footer';
 
@@ -15,7 +15,7 @@ function App() {
   return (
     <AppContainer>
       <Header />
-      <BodyOne />
+      <Carousel />
       <BodyTwo />
       <BodyThree />
       <Footer />

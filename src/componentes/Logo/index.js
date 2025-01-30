@@ -1,16 +1,17 @@
-import logo from '../../imagens/logo.svg'
-import styled from 'styled-components'
+import logo from '../../imagens/logo.svg';
+import styled from 'styled-components';
 
 const LogoContainer = styled.div`
     display: flex;
-    font-size: 30px;
-`
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    width: 100%;
+    padding: 25px 0; /* Adiciona espaço superior e inferior */
+`;
 
 const LogoImage = styled.img`
-    margin-right: 10px;
-    margin-left: 50px;
     width: 260px;
-`
+`;
 
 function Logo() {
     return (
@@ -20,7 +21,7 @@ function Logo() {
                 alt='logo' 
             />
        </LogoContainer>
-    )
+    );
 }
 
-export default Logo
+export default Logo;
