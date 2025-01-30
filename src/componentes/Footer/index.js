@@ -1,43 +1,36 @@
-import styled from "styled-components";
+import React from 'react';
+import styled from 'styled-components';
+import { FaInstagram } from 'react-icons/fa';
 
-const FooterContainer = styled.div`
+const FooterContainer = styled.footer`
+  background-color: #343a40;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+`;
+
+const SocialIcons = styled.div`
     display: flex;
-    width: 100vw;
-    height: 30vh;
-    background-color: black;
-    margin-top: 25px;
-    align-items: center;
-    flex-direction: column;
-`
+    justify-content: center;
+    margin-bottom: 10px;
+    color: white;
+    margin: 0 10px;
+    font-size: 24px;
+`;
 
-const DivIcons = styled.div`
-    background-color: red;
-    width: 25vw;
-    height: 10vh;  
-    margin-top: 30px;
-`
-const DivInfo = styled.div`
-    background-color: red;
-    width: 40vw;
-    height: 10vh;
+const Copyright = styled.p`
     margin-top: 10px;
-`
-const DivCredits = styled.div`
-    width: 100vw;
-    height: 3vh;
-    background-color: red;
-    margin-top: 30px;
-`
+`;
 
-function Footer(){
-    return(
-        <FooterContainer>
-            <DivIcons />
-            <DivInfo />
-            <DivCredits />
-
-        </FooterContainer>
-    );
+function Footer () {
+  return (
+    <FooterContainer>
+      <SocialIcons>
+        <a href="#" aria-label="Instagram"><FaInstagram /></a>
+      </SocialIcons>
+      <Copyright>© 2025 Copyright: almeidawerneck.com.br</Copyright>
+    </FooterContainer>
+  );
 };
 
 export default Footer;
