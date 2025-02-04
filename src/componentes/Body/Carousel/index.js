@@ -18,7 +18,7 @@ const CarouselContainer = styled.div`
 function Carousel() {
 
   return (
-    <CarouselContainer id="carouselExampleIndicators" className="carousel slide" data-bs-ride="carousel">
+    <CarouselContainer id="carouselExampleIndicators" className="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
       <div className="carousel-indicators">
         {images.map((image, idx) => (
           <button
@@ -52,4 +52,5 @@ function Carousel() {
 }
 
 export default Carousel;
+
 

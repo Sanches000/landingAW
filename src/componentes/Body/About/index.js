@@ -27,7 +27,7 @@ function About() {
       <Row className="justify-content-center">
         <Col xs={12} md={10} lg={8}>
           <Paragraph>Fundada em 21 de janeiro de 2005, a Almeida & Werneck se destaca no mercado como uma Indústria de Artefatos de Borracha, Silicone e Poliuretano, além da Prestação de Serviços. Especializamos-nos em trabalhar com diversos tipos de borracha, oferecendo aos nossos clientes um sistema ágil e eficiente que atende às mais variadas necessidades.</Paragraph>
-          <Paragraph>Para assegurar a excelência em nossos serviços, contamos com uma equipe de colaboradores altamente capacitados e com vasta experiência no setor. Estamos preparados para suprir as necessidades de empresas de todos os tamanhos—pequenas, médias e grandes—e nos orgulhamos de nossa capacidade de adaptação e inovação constante.</Paragraph>
+          <Paragraph>Para assegurar a excelência em nossos serviços, contamos com uma equipe de colaboradores altamente capacitados e com vasta experiência no setor. Estamos preparados para suprir as necessidades de empresas de todos os tamanhos.</Paragraph>
         </Col>
       </Row>
     </BodyContainer>

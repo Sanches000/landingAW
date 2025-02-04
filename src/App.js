@@ -1,27 +1,21 @@
-import Header from './componentes/Header'
-import styled from 'styled-components'
-import Carousel from './componentes/Body/Carousel';
-import Cards from './componentes/Body/Cards';
-import About from './componentes//Body/About';
-import Footer from './componentes/Footer';
-
-const AppContainer = styled.div`
-    width: 100vw;
-    height: 100vh;
-    background-color:rgb(236, 236, 236);
-    overflow-x: hidden;
-`
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Home from "./pages/home";
+import Company from "./pages/company";
+import Contact from "./pages/contact";
+import Product from "./pages/product";
 
 function App() {
   return (
-    <AppContainer>
-      <Header />
-      <Carousel />
-      <Cards />
-      <About />
-      <Footer />
-    </AppContainer>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Home />}/>
+        <Route path="/Empresa" element={<Company />}/>
+        <Route path="/Produto" element={<Product />}/>
+        <Route path="/Contato" element={<Contact />}/>
+        <Route path="*" element={<div>Página não encontrada :/</div>}/>
+      </Routes>
+    </BrowserRouter>
   );
 }
 
-export default App
+export default App;

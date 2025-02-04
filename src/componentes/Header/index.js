@@ -56,10 +56,10 @@ function Header() {
                     <Navbar.Toggle aria-controls="basic-navbar-nav" className="mx-auto my-2" />
                     <Navbar.Collapse id="basic-navbar-nav">
                         <NavLinks>
-                            <Nav.Link href="#" className="nav-link">Home</Nav.Link>
-                            <Nav.Link href="#" className="nav-link">Empresa</Nav.Link>
-                            <Nav.Link href="#" className="nav-link">Produtos</Nav.Link>
-                            <Nav.Link href="#" className="nav-link">Contato</Nav.Link>
+                            <Nav.Link href="/" className="nav-link">Home</Nav.Link>
+                            <Nav.Link href="/Empresa" className="nav-link">Empresa</Nav.Link>
+                            <Nav.Link href="/Produto" className="nav-link">Produtos</Nav.Link>
+                            <Nav.Link href="/Contato" className="nav-link">Contato</Nav.Link>
                         </NavLinks>
                     </Navbar.Collapse>
                 </Navbar>
