@@ -1,14 +1,15 @@
 import Header from './componentes/Header'
 import styled from 'styled-components'
-import Carousel from './componentes/Body/Carousel/index';
-import BodyTwo from './componentes/Body/Cards/Index';
-import BodyThree from './componentes/Body/Bodythree/index';
+import Carousel from './componentes/Body/Carousel';
+import Cards from './componentes/Body/Cards';
+import About from './componentes//Body/About';
 import Footer from './componentes/Footer';
 
 const AppContainer = styled.div`
     width: 100vw;
     height: 100vh;
     background-color:rgb(236, 236, 236);
+    overflow-x: hidden;
 `
 
 function App() {
@@ -16,8 +17,8 @@ function App() {
     <AppContainer>
       <Header />
       <Carousel />
-      <BodyTwo />
-      <BodyThree />
+      <Cards />
+      <About />
       <Footer />
     </AppContainer>
   );

@@ -7,22 +7,23 @@ const FooterContainer = styled.footer`
   color: white;
   text-align: center;
   padding: 20px 0;
+  font-family: 
 `;
 
 const SocialIcons = styled.div`
-    display: flex;
-    justify-content: center;
-    margin-bottom: 10px;
-    color: white;
-    margin: 0 10px;
-    font-size: 24px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+  color: white;
+  margin: 0 10px;
+  font-size: 24px;
 `;
 
 const Copyright = styled.p`
-    margin-top: 10px;
+  margin-top: 10px;
 `;
 
-function Footer () {
+function Footer() {
   return (
     <FooterContainer>
       <SocialIcons>
@@ -31,6 +32,6 @@ function Footer () {
       <Copyright>© 2025 Copyright: almeidawerneck.com.br</Copyright>
     </FooterContainer>
   );
-};
+}
 
 export default Footer;

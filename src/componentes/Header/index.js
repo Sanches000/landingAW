@@ -1,4 +1,4 @@
-import logo from '../../imagens/logo.svg';
+import logo from '../../imagens/LogoImage/logo.svg';
 import styled from 'styled-components';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { useState } from 'react';
@@ -10,6 +10,8 @@ const HeaderContainer = styled.div`
     align-items: center;
     padding-top: 25px;
     width: 100%;
+      font-family: "Inter", serif;
+
 `;
 
 const LogoImage = styled.img`
