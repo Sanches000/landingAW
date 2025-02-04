@@ -27,7 +27,7 @@ function Footer() {
   return (
     <FooterContainer>
       <SocialIcons>
-        <a href="www.gooogle.com.br" aria-label="Instagram"><FaInstagram /></a>
+        <a href="https://www.google.com.br" aria-label="Instagram"><FaInstagram /></a>
       </SocialIcons>
       <Copyright>© 2025 Copyright: almeidawerneck.com.br</Copyright>
     </FooterContainer>

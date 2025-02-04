@@ -1,5 +1,6 @@
 import styled from 'styled-components'
 import Header from '../../componentes/Header';
+import Footer from '../../componentes/Footer';
 
 const AppContainer = styled.div`
     width: 100vw;
@@ -14,10 +15,7 @@ function Company() {
         <AppContainer>
             <Header />
             <h1>Empresa</h1>
-            <h1>Empresa</h1>
-            <h1>Empresa</h1>
-            <h1>Empresa</h1>
-            <h1>Empresa</h1>
+            <Footer />
         </AppContainer>
     );
   }

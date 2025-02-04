@@ -1,5 +1,7 @@
 import styled from 'styled-components'
 import Header from '../../componentes/Header';
+import ProductList from '../../componentes/ProductsList';
+import Footer from '../../componentes/Footer'
 
 const AppContainer = styled.div`
     width: 100vw;
@@ -13,13 +15,8 @@ function Product() {
     return (
         <AppContainer>
             <Header />
-            <h1>Produto</h1>
-            <h1>Produto</h1>
-            <h1>Produto</h1>
-            <h1>Produto</h1>
-            <h1>Produto</h1>
-            <h1>Produto</h1>
-            <h1>Produto</h1>
+            <ProductList />
+            <Footer />
         </AppContainer>
     );
   }
