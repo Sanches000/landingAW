@@ -1,8 +1,8 @@
 import styled from "styled-components";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import card1 from '../../../imagens/CardImages/card1.png'
-import card2 from '../../../imagens/CardImages/card2.png'
-import card3 from '../../../imagens/CardImages/card3.png'
+import card1 from '../../../imagens/CardImages/HomeCards/card1.png'
+import card2 from '../../../imagens/CardImages/HomeCards/card2.png'
+import card3 from '../../../imagens/CardImages/HomeCards/card3.png'
 
 const BodyContainer = styled.div`
     display: flex;
