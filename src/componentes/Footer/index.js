@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
-import { FaInstagram } from 'react-icons/fa';
+import { FaInstagram, FaLinkedin } from 'react-icons/fa';
+import { IoLogoReact } from "react-icons/io5";
 
 const FooterContainer = styled.footer`
   background-color: #343a40;
@@ -28,8 +29,10 @@ function Footer() {
     <FooterContainer>
       <SocialIcons>
         <a href="https://www.google.com.br" aria-label="Instagram"><FaInstagram /></a>
+        <a href="https://www.linkedin.com/company/almeida-werneck-2005" aria-label="LinkedIn"><FaLinkedin /></a>
       </SocialIcons>
       <Copyright>© 2025 Copyright: almeidawerneck.com.br</Copyright>
+      <a href="#">Built with <IoLogoReact /></a>
     </FooterContainer>
   );
 }

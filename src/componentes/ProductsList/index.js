@@ -65,7 +65,7 @@ function ProductList() {
                         <CardStyled className="card">
                             <img src="https://media.discordapp.net/attachments/1334304781669240832/1336482894281179198/A_high-angle_digital_sketch_of_a_silhouetted_question_mark_misty_atmospheric_background_rough_painterly_strokes_loose_style_complementary_epic_colors_backlighting_rich_textures_evoking_a_fantasy_scene.jpg?ex=67a3f830&is=67a2a6b0&hm=b565fe151d72753fef7378ff94cc8a8bb9f168a5a877e82b41259adcf463c9f5&=&format=webp&width=671&height=671" className="card-img-top" alt="MOVELEIRA" />
                             <CardBodyStyled>
-                                <CardTitle className="card-text">LINHA DE ALGO</CardTitle>
+                                <CardTitle className="card-text">LINHA DE COXIM</CardTitle>
                                 <a href="#" class="btn btn-primary">Ver Linha</a>
                             </CardBodyStyled>
                         </CardStyled>
@@ -74,7 +74,7 @@ function ProductList() {
                         <CardStyled className="card">
                             <img src="https://media.discordapp.net/attachments/1334304781669240832/1336482894281179198/A_high-angle_digital_sketch_of_a_silhouetted_question_mark_misty_atmospheric_background_rough_painterly_strokes_loose_style_complementary_epic_colors_backlighting_rich_textures_evoking_a_fantasy_scene.jpg?ex=67a3f830&is=67a2a6b0&hm=b565fe151d72753fef7378ff94cc8a8bb9f168a5a877e82b41259adcf463c9f5&=&format=webp&width=671&height=671" className="card-img-top" alt="MOVELEIRA" />
                             <CardBodyStyled>
-                                <CardTitle className="card-text">LINHA DE ALGO</CardTitle>
+                                <CardTitle className="card-text">LINHA DE VEDAÇÃO</CardTitle>
                                 <a href="#" class="btn btn-primary">Ver Linha</a>
                             </CardBodyStyled>
                         </CardStyled>
@@ -83,7 +83,7 @@ function ProductList() {
                         <CardStyled className="card">
                             <img src="https://media.discordapp.net/attachments/1334304781669240832/1336482894281179198/A_high-angle_digital_sketch_of_a_silhouetted_question_mark_misty_atmospheric_background_rough_painterly_strokes_loose_style_complementary_epic_colors_backlighting_rich_textures_evoking_a_fantasy_scene.jpg?ex=67a3f830&is=67a2a6b0&hm=b565fe151d72753fef7378ff94cc8a8bb9f168a5a877e82b41259adcf463c9f5&=&format=webp&width=671&height=671" className="card-img-top" alt="MOVELEIRA" />
                             <CardBodyStyled>
-                                <CardTitle className="card-text">LINHA DE ALGO</CardTitle>
+                                <CardTitle className="card-text">LINHA DE PROTETORES</CardTitle>
                                 <a href="#" class="btn btn-primary">Ver Linha</a>
                             </CardBodyStyled>
                         </CardStyled>
