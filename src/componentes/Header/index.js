@@ -3,6 +3,7 @@ import styled from 'styled-components';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { useState } from 'react';
 import { Navbar, Nav } from 'react-bootstrap';
+import { Link } from 'react-router-dom'
 
 const HeaderContainer = styled.div`
     display: flex;
@@ -56,10 +57,10 @@ function Header() {
                     <Navbar.Toggle aria-controls="basic-navbar-nav" className="mx-auto my-2" />
                     <Navbar.Collapse id="basic-navbar-nav">
                         <NavLinks>
-                            <Nav.Link href="/" className="nav-link">Home</Nav.Link>
-                            <Nav.Link href="/Empresa" className="nav-link">Empresa</Nav.Link>
-                            <Nav.Link href="/Produto" className="nav-link">Produtos</Nav.Link>
-                            <Nav.Link href="/Contato" className="nav-link">Contato</Nav.Link>
+                            <Link to="/" className="nav-link">Home</Link>
+                            <Link to="/Empresa" className="nav-link">Empresa</Link>
+                            <Link to="/Produto" className="nav-link">Produtos</Link>
+                            <Link to="/Contato" className="nav-link">Contato</Link>
                         </NavLinks>
                     </Navbar.Collapse>
                 </Navbar>
