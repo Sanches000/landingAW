@@ -14,8 +14,8 @@ function App() {
           <Route path="/Empresa" element={<Company />}/>
           <Route path="/Produto" element={<Product />}/>
           <Route path="/Contato" element={<Contact />}/>
-          <Route path="*" element={<div>Página não encontrada :/</div>}/>
         </Route>
+        <Route path="*" element={<div>Página não encontrada :/</div>}/>
       </Routes>
     </BrowserRouter>
   );
