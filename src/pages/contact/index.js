@@ -1,6 +1,4 @@
 import styled from 'styled-components'
-import Header from '../../componentes/Header';
-import Footer from '../../componentes/Footer'
 
 const AppContainer = styled.div`
     width: 100vw;
@@ -13,9 +11,7 @@ const AppContainer = styled.div`
 function Contact() {
     return (
         <AppContainer>
-            <Header />
             <h1>Contato</h1>
-            <Footer />
         </AppContainer>
     );
   }

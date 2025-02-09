@@ -1,8 +1,6 @@
-import Header from '../../componentes/Header'
 import Carousel from '../../componentes/Body/Carousel'
 import Cards from '../../componentes/Body/Cards'
 import About from '../../componentes/Body/About'
-import Footer from '../../componentes/Footer'
 import styled from 'styled-components'
 
 const AppContainer = styled.div`
@@ -15,11 +13,9 @@ const AppContainer = styled.div`
 function Home() {
   return (
     <AppContainer>
-      <Header />
       <Carousel />
       <Cards />
       <About />
-      <Footer />
     </AppContainer>
   );
 }

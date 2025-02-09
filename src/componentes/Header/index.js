@@ -9,15 +9,14 @@ const HeaderContainer = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 25px;
     width: 100%;
-      font-family: "Inter", serif;
+    font-family: "Inter", serif;
 
 `;
 
 const LogoImage = styled.img`
     width: 260px;
-    margin-bottom: 10px; /* Adiciona espaço abaixo da logo */
+    margin-bottom: 10px;
 `;
 
 const NavbarContainer = styled.div`
