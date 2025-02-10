@@ -9,14 +9,19 @@ const importAll = (r) => r.keys().map(r);
 const images = importAll(require.context('../../../imagens/CarouselImages', false, /\.(png|jpe?g|svg)$/));
 
 const CarouselContainer = styled.div`
+  .carousel-inner {
+    height: 400px; /* Defina a altura desejada aqui */
+    overflow: hidden; /* Garante que as imagens não ultrapassem o contêiner */
+  }
+
   .carousel-item img {
     width: 100%;
-    height: auto;
+    height: 100%; /* Faz a imagem ocupar toda a altura do contêiner */
+    object-fit: cover; /* Corta a imagem para cobrir o espaço sem distorcer */
   }
 `;
 
 function Carousel() {
-
   return (
     <CarouselContainer id="carouselExampleIndicators" className="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
       <div className="carousel-indicators">
@@ -52,5 +57,3 @@ function Carousel() {
 }
 
 export default Carousel;
-
-

@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { Link } from 'react-router-dom'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import coxim from '../../imagens/CardImages/ProductCategoryCard/coxim.jpg'
 import moveis from '../../imagens/CardImages/ProductCategoryCard/moveis.jpeg'
@@ -44,7 +45,7 @@ function ProductList() {
                             <img src={moveis} className="card-img-top" alt="Moveleira" />
                             <CardBodyStyled>
                                 <CardTitle className="card-text">LINHA MOVELEIRA</CardTitle>
-                                <a href="#" class="btn btn-primary">Ver Linha</a>
+                                <Link to="/LinhaMoveleira"class="btn btn-primary">Ver Linha</Link>
                             </CardBodyStyled>
                         </CardStyled>
                     </div>
@@ -53,7 +54,7 @@ function ProductList() {
                             <img src={wheel} className="card-img-top" alt="Automotiva" />
                             <CardBodyStyled>
                                 <CardTitle className="card-text">LINHA AUTOMOTIVA</CardTitle>
-                                <a href="#" class="btn btn-primary">Ver Linha</a>
+                                <Link to="/LinhaAutomotiva" class="btn btn-primary">Ver Linha</Link>
                             </CardBodyStyled>
                         </CardStyled>
                     </div>
@@ -62,7 +63,7 @@ function ProductList() {
                             <img src={remedios} className="card-img-top" alt="Hospitalar" />
                             <CardBodyStyled>
                                 <CardTitle className="card-text">LINHA HOSPITALAR</CardTitle>
-                                <a href="#" class="btn btn-primary">Ver Linha</a>
+                                <Link to="/LinhaHospitalar" class="btn btn-primary">Ver Linha</Link>
                             </CardBodyStyled>
                         </CardStyled>
                     </div>
@@ -71,7 +72,7 @@ function ProductList() {
                             <img src={coxim} className="card-img-top" alt="MOVELEIRA" />
                             <CardBodyStyled>
                                 <CardTitle className="card-text">LINHA DE COXIM</CardTitle>
-                                <a href="#" class="btn btn-primary">Ver Linha</a>
+                                <Link to="/LinhaCoxim" class="btn btn-primary">Ver Linha</Link>
                             </CardBodyStyled>
                         </CardStyled>
                     </div>
@@ -80,7 +81,7 @@ function ProductList() {
                             <img src={vedacao} className="card-img-top" alt="MOVELEIRA" />
                             <CardBodyStyled>
                                 <CardTitle className="card-text">LINHA DE VEDAÇÃO</CardTitle>
-                                <a href="#" class="btn btn-primary">Ver Linha</a>
+                                <Link to="/LinhaVedacao" class="btn btn-primary">Ver Linha</Link>
                             </CardBodyStyled>
                         </CardStyled>
                     </div>
@@ -89,7 +90,7 @@ function ProductList() {
                             <img src="https://media.discordapp.net/attachments/1334304781669240832/1336482894281179198/A_high-angle_digital_sketch_of_a_silhouetted_question_mark_misty_atmospheric_background_rough_painterly_strokes_loose_style_complementary_epic_colors_backlighting_rich_textures_evoking_a_fantasy_scene.jpg?ex=67a743f0&is=67a5f270&hm=78561894a7d55fcd914b3282299d8e2cb00e567c1980e27ad9f8cb1f08d82a09&=&format=webp&width=671&height=671" className="card-img-top" alt="MOVELEIRA" />
                             <CardBodyStyled>
                                 <CardTitle className="card-text">LINHA DE PROTETORES</CardTitle>
-                                <a href="#" class="btn btn-primary">Ver Linha</a>
+                                <Link to="*" class="btn btn-primary">Ver Linha</Link>
                             </CardBodyStyled>
                         </CardStyled>
                     </div>
