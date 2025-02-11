@@ -2,7 +2,7 @@ import logo from '../../imagens/LogoImage/logo.svg';
 import styled from 'styled-components';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { useState } from 'react';
-import { Navbar} from 'react-bootstrap';
+import { Navbar } from 'react-bootstrap';
 import { Link } from 'react-router-dom'
 
 const HeaderContainer = styled.div`
@@ -11,6 +11,7 @@ const HeaderContainer = styled.div`
     align-items: center;
     width: 100vw;
     font-family: "Inter", serif;
+    margin-bottom: 25px;
 `;
 
 const LogoImage = styled.img`

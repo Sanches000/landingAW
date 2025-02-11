@@ -15,8 +15,8 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
+        <Route index element={<Home />} />
         <Route path="/" element={<DefaultStructure />}>
-          <Route index element={<Home />} />
           <Route path="/Empresa" element={<Company />} />
           <Route path="/Produto" element={<Product />} />
           <Route path="/Contato" element={<Contact />} />

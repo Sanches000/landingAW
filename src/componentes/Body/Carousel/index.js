@@ -2,22 +2,24 @@ import styled from 'styled-components';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 
-// import de todas as imagens da pasta
+// Importa todas as imagens da pasta
 const importAll = (r) => r.keys().map(r);
-
-// require.context para importar todas as imagens da pasta
 const images = importAll(require.context('../../../imagens/CarouselImages', false, /\.(png|jpe?g|svg)$/));
 
 const CarouselContainer = styled.div`
   .carousel-inner {
-    height: 400px; /* Defina a altura desejada aqui */
-    overflow: hidden; /* Garante que as imagens não ultrapassem o contêiner */
+    height: 400px; /* Altura fixa para telas maiores */
+    overflow: hidden;
+
+    @media (max-width: 768px) {
+      height: 250px; /* Altura reduzida para telas menores (mobile) */
+    }
   }
 
   .carousel-item img {
     width: 100%;
-    height: 100%; /* Faz a imagem ocupar toda a altura do contêiner */
-    object-fit: cover; /* Corta a imagem para cobrir o espaço sem distorcer */
+    height: 100%;
+    object-fit: cover; /* Mantém a proporção da imagem */
   }
 `;
 

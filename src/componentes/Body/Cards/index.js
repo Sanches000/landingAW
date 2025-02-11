@@ -10,6 +10,8 @@ const BodyContainer = styled.div`
     width: 100vw;
     margin: 0 auto;
     margin-top: 25px;
+    margin-bottom: 50px;
+
 `;
 
 const CardStyled = styled.div`
@@ -18,7 +20,7 @@ const CardStyled = styled.div`
     border-radius: 0.25rem;
     overflow: hidden;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
-    background-color: #343a40;
+    background-color: #3e5890;
 `;
 
 const CardBodyStyled = styled.div`

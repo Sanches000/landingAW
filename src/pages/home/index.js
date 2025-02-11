@@ -1,7 +1,9 @@
 import Carousel from '../../componentes/Body/Carousel'
 import Cards from '../../componentes/Body/Cards'
-import About from '../../componentes/Body/About'
 import styled from 'styled-components'
+import Footer from '../../componentes/Footer';
+import Header from '../../componentes/Header';
+import Advantages from '../../componentes/Body/advantages';
 
 const AppContainer = styled.div`
     width: 100vw;
@@ -13,9 +15,11 @@ const AppContainer = styled.div`
 function Home() {
   return (
     <AppContainer>
+      <Header />
       <Carousel />
       <Cards />
-      <About />
+      <Advantages />
+      <Footer />
     </AppContainer>
   );
 }
