@@ -6,6 +6,7 @@ import moveis from '../../imagens/CardImages/ProductCategoryCard/moveis.jpeg'
 import remedios from '../../imagens/CardImages/ProductCategoryCard/remedios.png'
 import vedacao from '../../imagens/CardImages/ProductCategoryCard/vedacao.jpg'
 import wheel from '../../imagens/CardImages/ProductCategoryCard/wheel.jpg'
+import client from '../../imagens/CardImages/ProductCategoryCard/ProductCard/caderno.png'
 
 const BodyContainer = styled.div`
     display: flex;
@@ -87,10 +88,10 @@ function ProductList() {
                     </div>
                     <div className="col-12 col-md-6 col-lg-4 mb-4 d-flex justify-content-center">
                         <CardStyled className="card">
-                            <img src="https://media.discordapp.net/attachments/1334304781669240832/1336482894281179198/A_high-angle_digital_sketch_of_a_silhouetted_question_mark_misty_atmospheric_background_rough_painterly_strokes_loose_style_complementary_epic_colors_backlighting_rich_textures_evoking_a_fantasy_scene.jpg?ex=67a743f0&is=67a5f270&hm=78561894a7d55fcd914b3282299d8e2cb00e567c1980e27ad9f8cb1f08d82a09&=&format=webp&width=671&height=671" className="card-img-top" alt="MOVELEIRA" />
+                            <img src={client} className="card-img-top" alt="MOVELEIRA" />
                             <CardBodyStyled>
-                                <CardTitle className="card-text">LINHA DE PROTETORES</CardTitle>
-                                <Link to="*" class="btn btn-primary">Ver Linha</Link>
+                                <CardTitle className="card-text">DESENVOLVA SEU PRODUTO</CardTitle>
+                                <Link to="/Contato" class="btn btn-primary">Realizar Cotação</Link>
                             </CardBodyStyled>
                         </CardStyled>
                     </div>
