@@ -27,7 +27,7 @@ const CardBodyStyled = styled.div`
     color: white;
     padding: 1.25rem;
     font-size: 1rem;
-    text-align: left
+    text-align: justify;
 `;
 const CardTitle = styled.h6`
     text-align: center;

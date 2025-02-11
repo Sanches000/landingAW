@@ -31,7 +31,7 @@ const IconContainer = styled.div`
 `;
 
 const IconWrapper = styled.div`
-  text-align: center;
+  text-align: justify;
   margin: 10px;
   flex: 1;
 `;
